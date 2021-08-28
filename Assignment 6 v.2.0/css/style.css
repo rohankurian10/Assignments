@@ -1,0 +1,68 @@
+body{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+h1{
+    color: #27A6DF;
+    display: flex;
+    justify-content: center;
+}
+
+.inpform{
+    background-color: #E3E3E3;
+    height: 45px;
+    border: 0;
+    border-radius: 10px;
+    /* width: 500px; */
+}
+
+.btn {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.form span{
+    height: 10px;
+    color: red;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.form{
+    display: flex; 
+    flex-flow: column; 
+    justify-content: center; 
+    height: 100%; 
+    width: 100%;
+}
+
+.form-div{
+    padding: 0px 100px 0px 100px;
+    background-color:#F1E9E5; 
+    border-radius: 10px; 
+    height: 700px; 
+    width: 530px;
+}
+
+.form-div-div{
+    display: flex; 
+    justify-content: 
+    center;margin-top: 10vh;
+}
