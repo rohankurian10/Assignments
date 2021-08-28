@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#btn').click(function(){
-        var spChars = /^[A-Za-z0-9 ]+$/
+        var spChars =  /^ [A-Za-z]*/
         var fname = $('#fname').val();
         var lname = $('#lname').val();
         var email = $('#email').val();

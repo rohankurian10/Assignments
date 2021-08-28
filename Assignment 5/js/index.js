@@ -1,6 +1,6 @@
 function validation(){
 
-    var spChars = /^[A-Za-z0-9 ]+$/
+    var spChars = /^ [A-Za-z]*/
     var fname = reg.fname.value;
     var lname = reg.lname.value;
     var email = reg.email.value.trim();
