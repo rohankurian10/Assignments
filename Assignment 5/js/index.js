@@ -95,7 +95,12 @@ function validation(){
         document.getElementById("err-pass2").innerHTML = "";
     }
 
-    console.log(count);
+    console.log('Count:'+count);
+    console.log('First Name:'+fname);
+    console.log('Last Name:'+lname);
+    console.log('Email:'+email);
+    console.log('Date of Birth:'+dob);
+    console.log('Phone:'+phone);
     if(count > 0){
         return false;
     }else{
