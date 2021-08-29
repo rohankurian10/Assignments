@@ -5,11 +5,13 @@ body{
 
 h1{
     color: #27A6DF;
+    display: flex;
+    justify-content: center;
 }
 
 .inpform{
     background-color: #E3E3E3;
-    height: 35px;
+    height: 45px;
     border: 0;
     border-radius: 10px;
 }
@@ -34,8 +36,29 @@ h1{
     text-decoration: none;
 }
 
+.form{
+    display: flex; 
+    flex-flow: column; 
+    justify-content: center; 
+    height: 100%; 
+    width: 100%;
+}
+
 .form span{
     height: 10px;
     color: red;
+}
 
+.form-div{
+    padding: 0px 100px 0px 100px;
+    background-color:#F1E9E5; 
+    border-radius: 10px; 
+    height: 700px; 
+    width: 530px;
+}
+
+.form-div-div{
+    display: flex; 
+    justify-content: center;
+    margin-top: 10vh;
 }
