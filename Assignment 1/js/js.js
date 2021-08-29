@@ -1,5 +1,5 @@
 txtClear=()=>{
-    document.getElementById("txtVal").value = ""
+    document.getElementById("txtVal").value = "";
 }
 
 strVal=(value)=>{
@@ -8,7 +8,7 @@ strVal=(value)=>{
 }
 
 equalsTo=()=>{
-    var txtVal = document.getElementById("txtVal").value
+    var txtVal = document.getElementById("txtVal").value;
     console.log(txtVal);
     var result = eval(txtVal);
     console.log(result);
