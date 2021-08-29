@@ -1,0 +1,161 @@
+#calc{
+    height: 650px;
+    width: 350px;
+    background-color: #555555;
+    padding: 1px;
+}
+
+#calc-div{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 19vh;
+}
+
+#navbar{
+    height: 6%;
+    width: 100%;
+}
+
+#navbar1{
+    width: 87%;
+    height: 100%;
+    background-color: #555555;
+    display: flex;
+}
+
+#navbar1 button{
+    height: 30px;
+    width: 30px;
+    background-color: #555555;
+    border: 0;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    margin:3px 8px 0 3px ;
+    font-size: 20px;
+}
+
+#navbar1 button:hover{
+    background-color: #343434;
+    transition: 0.15s;
+}
+
+#navbar1 div{
+    color:white;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#navbar2 {
+    width: 13%;
+    height: 100%;
+    display: flex;
+}
+
+#navbar2 button{
+    background-color: red;
+}
+
+#txtbox{
+    width: 100%;
+    height: 21%;
+}
+
+#mrmc{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.numpad{
+    height: 66%;
+    width: 100%;
+}
+
+.numpad-div{
+    display: flex;
+    height: 16.4%;
+    width: 100%;
+    margin:1px 0 1px 0;
+}
+
+.numpad-div button{
+    width: 25%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    border:0;
+    margin:0 1px 0 1px;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #555555;
+    border:0;
+    color: white;
+    font-size: 70px;
+    text-align: right;
+}
+
+#mrmc button{
+    height: 100%;
+    width: 16.63%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: 0;
+    background-color: #555555;
+    transition: 0.13s;
+}
+
+#spch{
+    font-family:'Gabriola' ,sans-serif; 
+    font-weight: bold;
+}
+.btn1{
+    background-color: #343434;
+    transition: 0.13s;
+}
+
+.btn1:hover{
+    background-color: #111111;
+}
+
+.btn1:active{
+    background-color: #343434;
+}
+
+.btn2{
+    background-color: #111111;
+    transition: 0.13s;
+}
+
+.btn2:hover{
+    background-color: #343434;
+}
+
+.btn2:active{
+    background-color: #111111;
+}
+
+.btn3{
+    background-color: #326286;
+    transition: 0.13s;
+}
+
+.btn3:hover{
+    background-color:#274a70 ;
+}
+
+.btn3:active{
+    background-color: #326286;
+}
+
+#mrmc button:hover{
+    background-color: #343434;
+}
