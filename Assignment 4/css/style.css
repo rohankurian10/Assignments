@@ -1,0 +1,45 @@
+body{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.boxDiv{
+    width: 300px; 
+    height:300px; 
+    background: #ED213A;
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    background: linear-gradient(to right, #93291E, #ED213A);
+    border-radius: 10px;
+    border: 2px solid #810000;
+}
+
+.btnDiv{
+    display:flex;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+}
+
+.mainDiv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+.btnDiv button{
+    height: 96%;
+    width: 46%;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin:0px 5px 5px 5px;
+    background-color: #0D63A5;
+    transition: 0.13s;
+    text-transform: uppercase;
+}
+
+.btnDiv button:hover{
+    color: white;
+    background-color: #083358;
+}
