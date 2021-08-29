@@ -25,18 +25,19 @@
 
 #navbar1 button{
     height: 30px;
-    width: 30px;
+    width: 40px;
     background-color: #555555;
     border: 0;
     color: white;
     display: flex;
     align-items: flex-start;
-    margin:3px 8px 0 3px ;
+    padding-left: 10px;
+    margin:3px 0 0 3px ;
     font-size: 20px;
 }
 
 #navbar1 button:hover{
-    background-color: #343434;
+    background-color: #606060;
     transition: 0.15s;
 }
 
@@ -99,7 +100,7 @@
     background-color: #555555;
     border:0;
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     text-align: right;
 }
 
