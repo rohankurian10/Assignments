@@ -1,0 +1,29 @@
+<!-- Create two button 'Hide' and 'Show' and blow that create one div with red color,
+When Hide button click div shold be Hide and when click on show button div appear - 
+This application create by Jquery -->
+
+<html>
+    <head>
+        <title>Assignment 3</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </head>
+    <body style="background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);">
+        <div id="div" style="width: 300px; height:300px; background: #ED213A;
+            background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+            background: linear-gradient(to right, #93291E, #ED213A);">
+        </div>
+        <button id="show">Show</button>
+        <button id="hide">Hide</button>
+        <script>
+            $(document).ready(function(){                           //$(document).ready(function(){});
+                $('#show').click(function(){
+                    $('#div').fadeIn(1000);
+                });
+                $('#hide').click(function(){
+                    $('#div').fadeOut(1000);
+                });
+            });
+		</script>
+    </body>
+</html>
