@@ -5,13 +5,13 @@ body{
 #calc{
     height: 650px;
     width: 350px;
-    background-color: #1B262C;
+    background-color: #001F3F;
     padding: 1px;
     border: 0;
     -webkit-box-shadow: 0 0 10px 2px rgb(0, 0, 0);
     -moz-box-shadow: 0 0 10px 2px rgb(0, 0, 0);
     box-shadow: 0 0 10px 2px rgb(0, 0, 0);
-    border-radius:3px;
+    border-radius:5px;
 }
 
 #calc-div{
@@ -28,14 +28,15 @@ body{
 #navbar1{
     width: 87%;
     height: 100%;
-    background-color: #1B262C;
+    background-color: #001F3F;
     display: flex;
+    border-radius:5px;
 }
 
 #navbar1 button{
     height: 30px;
     width: 40px;
-    background-color: #1B262C;
+    background-color: #001F3F;
     border: 0;
     color: white;
     display: flex;
@@ -46,8 +47,9 @@ body{
 }
 
 #navbar1 button:hover{
-    background-color: #606060;
+    background-color: #0D63A5;
     transition: 0.15s;
+    border-radius: 3px;
 }
 
 #navbar1 div{
@@ -106,7 +108,7 @@ body{
     height: 100%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    background-color: #1B262C;
+    background-color: #001F3F;
     border:0;
     color: white;
     font-size: 50px;
@@ -119,7 +121,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: white;
     border: 0;
-    background-color: #1B262C;
+    background-color: #001F3F;
     transition: 0.13s;
 }
 
@@ -128,49 +130,50 @@ body{
     font-weight: bold;
 }
 .btn1{
-    background-color: #3282B8;
+    background-color: #0D63A5;
     transition: 0.13s;
 }
 
 .btn1:hover{
-    background-color: #0F4C75;
+    background-color: #083358;
 }
 
 .btn1:active{
-    background-color: #3282B8;
+    background-color: #0D63A5;
 }
 
 .btn2{
-    background-color: #0F4C75;
+    background-color: #083358;
     transition: 0.13s;
 }
 
 .btn2:hover{
-    background-color: #3282B8;
+    background-color: #0D63A5;
 }
 
 .btn2:active{
-    background-color: #0F4C75;
+    background-color: #083358;
 }
 
 .btn3{
-    background-color: #00ADB5;
+    background-color: #21E6C1;
     transition: 0.13s;
 }
 
 .btn3:hover{
-    background-color:#BBE1FA ;
+    background-color:#16be9e ;
 }
 
 .btn3:active{
-    background-color: #00ADB5;
+    background-color: #21E6C1;
 }
 
 #mrmc button:hover{
-    background-color: #3282B8;
+    background-color: #0D63A5;
 }
 
-/* btn2:	0F4C75
-bg:		1B262C
-btn1:	3282B8
-btn3:	00ADB5 */
+/* 
+btn2:	083358
+bg:		001F3F
+btn1:	0D63A5
+btn3:	21E6C1 */
