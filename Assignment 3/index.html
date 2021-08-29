@@ -2,11 +2,13 @@
 When Hide button click div shold be Hide and when click on show button div appear - 
 This application create by Jquery -->
 
+
 <html>
     <head>
         <title>Assignment 3</title>
+        <link rel="stylesheet" href="css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <link rel="stylesheet" href="style.css">
+        <script src="js/index.js"></script>
     </head>
     <body>
         <div class="mainDiv">
@@ -16,15 +18,5 @@ This application create by Jquery -->
             </div>
             <div class="boxDiv" id="div"></div>
         </div>
-        <script>
-            $(document).ready(function(){                           //$(document).ready(function(){});
-                $('#show').click(function(){
-                    $('#div').fadeIn(500);
-                });
-                $('#hide').click(function(){
-                    $('#div').fadeOut(500);
-                });
-            });
-		</script>
     </body>
 </html>
