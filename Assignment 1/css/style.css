@@ -5,7 +5,7 @@ body{
 #calc{
     height: 650px;
     width: 350px;
-    background-color: #555555;
+    background-color: #1B262C;
     padding: 1px;
     border: 0;
     -webkit-box-shadow: 0 0 10px 2px rgb(0, 0, 0);
@@ -28,14 +28,14 @@ body{
 #navbar1{
     width: 87%;
     height: 100%;
-    background-color: #555555;
+    background-color: #1B262C;
     display: flex;
 }
 
 #navbar1 button{
     height: 30px;
     width: 40px;
-    background-color: #555555;
+    background-color: #1B262C;
     border: 0;
     color: white;
     display: flex;
@@ -106,7 +106,7 @@ body{
     height: 100%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    background-color: #555555;
+    background-color: #1B262C;
     border:0;
     color: white;
     font-size: 50px;
@@ -119,7 +119,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: white;
     border: 0;
-    background-color: #555555;
+    background-color: #1B262C;
     transition: 0.13s;
 }
 
@@ -128,44 +128,49 @@ body{
     font-weight: bold;
 }
 .btn1{
-    background-color: #343434;
+    background-color: #3282B8;
     transition: 0.13s;
 }
 
 .btn1:hover{
-    background-color: #111111;
+    background-color: #0F4C75;
 }
 
 .btn1:active{
-    background-color: #343434;
+    background-color: #3282B8;
 }
 
 .btn2{
-    background-color: #111111;
+    background-color: #0F4C75;
     transition: 0.13s;
 }
 
 .btn2:hover{
-    background-color: #343434;
+    background-color: #3282B8;
 }
 
 .btn2:active{
-    background-color: #111111;
+    background-color: #0F4C75;
 }
 
 .btn3{
-    background-color: #326286;
+    background-color: #00ADB5;
     transition: 0.13s;
 }
 
 .btn3:hover{
-    background-color:#274a70 ;
+    background-color:#BBE1FA ;
 }
 
 .btn3:active{
-    background-color: #326286;
+    background-color: #00ADB5;
 }
 
 #mrmc button:hover{
-    background-color: #343434;
+    background-color: #3282B8;
 }
+
+/* btn2:	0F4C75
+bg:		1B262C
+btn1:	3282B8
+btn3:	00ADB5 */
