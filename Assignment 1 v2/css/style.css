@@ -1,0 +1,190 @@
+body{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+#calc{
+    height: 650px;
+    width: 350px;
+    background-color: #001F3F;
+    padding: 1px;
+    border: 0;
+    -webkit-box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+    -moz-box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0);
+    border-radius:5px;
+}
+
+#calc-div{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 12vh;
+}
+
+#navbar{
+    height: 6%;
+    width: 100%;
+}
+
+#navbar1{
+    width: 87%;
+    height: 100%;
+    background-color: #001F3F;
+    display: flex;
+    border-radius:5px;
+}
+
+#navbar1 button{
+    height: 30px;
+    width: 40px;
+    background-color: #001F3F;
+    border: 0;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 10px;
+    margin:3px 0 0 3px ;
+    font-size: 20px;
+}
+
+#navbar1 button:hover{
+    background-color: #0D63A5;
+    transition: 0.15s;
+    border-radius: 3px;
+}
+
+#navbar1 div{
+    color:white;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#navbar2 {
+    width: 13%;
+    height: 100%;
+    display: flex;
+}
+
+#navbar2 button{
+    background-color: red;
+}
+
+#txtbox{
+    width: 100%;
+    height: 21%;
+}
+
+#mrmc{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.numpad{
+    height: 66%;
+    width: 100%;
+}
+
+.numpad-div{
+    display: flex;
+    height: 16.4%;
+    width: 100%;
+    margin:1px 0 1px 0;
+}
+
+.numpad-div button{
+    width: 25%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    border:0;
+    margin:0 1px 0 1px;
+}
+
+.box2{
+    height:65%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #001F3F;
+    border:0;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+}
+
+.box1{
+    height:35%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #001F3F;
+    border:0;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+
+#mrmc button{
+    height: 100%;
+    width: 16.63%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: 0;
+    background-color: #001F3F;
+    transition: 0.13s;
+}
+
+#spch{
+    font-family:'Gabriola' ,sans-serif; 
+    font-weight: bold;
+}
+.btn1{
+    background-color: #0D63A5;
+    transition: 0.13s;
+}
+
+.btn1:hover{
+    background-color: #083358;
+}
+
+.btn1:active{
+    background-color: #0D63A5;
+}
+
+.btn2{
+    background-color: #083358;
+    transition: 0.13s;
+}
+
+.btn2:hover{
+    background-color: #0D63A5;
+}
+
+.btn2:active{
+    background-color: #083358;
+}
+
+.btn3{
+    background-color: #21E6C1;
+    transition: 0.13s;
+}
+
+.btn3:hover{
+    background-color:#16be9e ;
+}
+
+.btn3:active{
+    background-color: #21E6C1;
+}
+
+#mrmc button:hover{
+    background-color: #0D63A5;
+}
+
+/* 
+btn2:	083358
+bg:		001F3F
+btn1:	0D63A5
+btn3:	21E6C1 */

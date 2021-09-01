@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Calc Reworked</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <div class="calc">
+            <div class="inpBox">
+                <input type="text" id="text2" class="inp2">
+                <input type="text" id="text1" class="inp1">
+            </div>
+            <div class="divBtn">
+                <div>
+                    <button onclick="num('1')">1</button>
+                    <button onclick="num('2')">2</button>
+                    <button onclick="num('3')">3</button>
+                    <button id="btnpl" onclick="num('+')">+</button>
+                </div>
+                <div>
+                    <button onclick="num('4')">4</button>
+                    <button onclick="num('5')">5</button>
+                    <button onclick="num('6')">6</button>
+                    <button id="btnmi" onclick="num('-')">-</button>
+                </div>
+                <div>
+                    <button onclick="num('7')">7</button>
+                    <button onclick="num('8')">8</button>
+                    <button onclick="num('9')">9</button>
+                    <button id="btnmul" onclick="num('*')">*</button>
+                </div>
+                <div>
+                    <button onclick="num('.')">.</button>
+                    <button onclick="num('0')">0</button>
+                    <button onclick="num('=')">=</button>
+                    <button id="btndiv" onclick="num('/')">/</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
