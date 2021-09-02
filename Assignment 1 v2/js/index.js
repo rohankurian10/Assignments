@@ -13,7 +13,8 @@ num = (val) =>{
         btnmulObj.disabled = false;
         btndivObj.disabled = false;
         btnpntObj.disabled = false;
-    }else if(val == 2){
+    }
+    else if(val == 2){
         document.getElementById("text1").value=document.getElementById("text1").value+val;
         btnplObj.disabled = false;
         btnmiObj.disabled = false;
