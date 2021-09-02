@@ -124,6 +124,8 @@ num = (val) =>{
         btndivObj.disabled = true;
     }
     else{
+        console.log(document.getElementById('text2').value);
+        document.getElementById('text2').value=document.getElementById('text2').value + document.getElementById('text1').value;
         var textVal = document.getElementById("text2").value;
         document.getElementById("text1").value=eval(textVal);
 
